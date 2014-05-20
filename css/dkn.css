@@ -1,0 +1,42 @@
+body{
+font-family: 'Roboto Condensed', Arial, Helvetica, Helvetica Neue, sans-serif;
+-webkit-transition: all .3s ease;
+-moz-transition: all .3s ease;
+-ms-transition: all .3s ease;
+-o-transition: all .3s ease;
+transition: all .3s ease;
+}
+.navWrap {
+font-family: 'Roboto Condensed', Arial, Helvetica, Helvetica Neue, sans-serif;
+}
+.wrapper {
+width: 60%;
+max-width: 700px;
+margin: 70px auto;
+
+}
+.header {
+background-color: #222;
+text-align: center;
+margin-bottom: 0;
+text-transform: uppercase;
+letter-spacing: 4px;
+font-weight: 600;
+color: #FFF;
+font-size: 20px;
+width: 100%;
+float: right;
+padding: 25px 0px 22px 0px;
+}
+.header small {
+font-size: 80%;
+color: #89b943;
+}
+.info {
+text-align: center;
+color: #222;
+}
+img {
+width: 80%;
+}
+
