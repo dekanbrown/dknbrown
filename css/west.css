@@ -75,7 +75,7 @@ body {
   overflow: hidden;
 }
 
-.mainList a,a:visited {
+.mainList a, .mainList a:visited {
   display:block;
   padding:20px 20px 20px 30px;
   color:#bbb;
