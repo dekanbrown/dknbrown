@@ -12,6 +12,9 @@ transition: all .3s ease;
 .navWrap {
 font-family: 'Roboto Condensed', Arial, Helvetica, Helvetica Neue, sans-serif;
 }
+.navwrap ul {
+padding: 10px;
+}
 .wrapper {
 width: 60%;
 max-width: 700px;
@@ -75,3 +78,23 @@ a:hover {
   color:#fff;
   text-decoration: none;
   }
+/* fix dash marks for chrome mobile */
+.trigger {
+background-color: #fff;
+}
+.trigger {
+background: none;
+}
+.trigger:before {
+  content: "";
+  position: absolute;
+  left: .5em;
+  top:.5em;
+  width: 1em;
+  height: 0.075em;
+  background: white;
+  box-shadow:
+    0 0.25em 0 0 white,
+    0 0.5em 0 0 white;
+}
+
